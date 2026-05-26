@@ -131,6 +131,10 @@ int main()
                 circle.y = event.motion.y;
                 generate_rays(circle, rays);
             }
+            if (event.type = SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE)
+            {
+                simulation_running = 0;
+            }
         }
         SDL_FillRect(surface, &erase_rect, COLOR_BLACK);
         FillRays(surface, rays, COLOR_RAY, COLOR_RAY_BLUR, shadow_circle);

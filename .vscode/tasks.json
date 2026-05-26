@@ -6,9 +6,9 @@
             "type": "shell",
             "command": "C:/msys64/mingw64/bin/gcc.exe",
             "args": [
-                "ray_tracing.c",
+                "ray_tracing_sdl.c",
                 "-o",
-                "ray_tracing.exe",
+                "ray_tracing_sdl.exe",
                 "-IC:/msys64/mingw64/include/SDL2",
                 "-LC:/msys64/mingw64/lib",
                 "-lSDL2",
