@@ -101,7 +101,7 @@ void FillRays(SDL_Surface* surface, struct Ray rays[RAYS_NUMBER], Uint32 color, 
 int main()
 {
     SDL_Init(SDL_INIT_VIDEO);
-    SDL_Window* window = SDL_CreateWindow("Raytracing", 
+    SDL_Window* window = SDL_CreateWindow("Raytracing using SDL2", 
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 
         WIDTH, HEIGHT, 0);
 
